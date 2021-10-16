@@ -1,0 +1,157 @@
+html{
+  scroll-behavior: smooth;
+}
+
+
+body{
+  background-color: #000000;
+  margin: 0;
+  color: white;
+  font-family: 'montserrat';
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+i{
+  
+  font-size: 2.5em;
+  border: 2px solid #334756;
+  border-top-left-radius: 30px ;
+  border-bottom-left-radius:30px;
+  background-color: grey;
+  position: fixed;
+  float: right;
+  right: 0px;
+}
+
+.nav{
+  z-index: 10;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+.ptitle{
+  float: left;
+  color: white;
+}
+.ptitle h1 a{
+  margin-top: 0px;
+}
+.ptitle h1{
+  font-family: 'caveat';
+  font-size: 2.5em;
+  margin-top: 0;
+  margin-bottom:0 ;
+
+}
+.nav ul {
+  margin: 0 0;
+  font-family: 'Montserrat';
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+ ul li {
+  float: right;
+}
+.nav li a,i {
+  margin-top:10px ;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 4px 16px;
+  text-decoration: none;
+}
+.nav a:hover{
+  background-color: #111;
+  border-radius: 30px;
+}
+.ptitle a:hover{
+  background-color: #333 ;
+}
+.aboutme,.skills,.mywork,.credentials,.contact{
+  margin: 10% 7% 25% 7%;
+}
+
+.aboutme h1{
+  background-image: linear-gradient(90deg,white,black );
+  background-size: 0% 3px;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  transition: background-size 300ms ease;
+  color: #C1CFC0;
+  font-family: 'oswald';
+  font-size: 4em;
+  margin-top: 150px;
+  text-decoration:none ;
+}
+.skills h1 {
+  background-image: linear-gradient(90deg,white,black );
+  background-size: 0% 3px;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  transition: background-size 300ms ease;
+  color: #C1CFC0;
+  font-family: 'oswald';
+  font-size: 4em;
+  margin-top: 150px;
+  text-decoration:none ;
+
+}
+.mywork h1{
+  background-image: linear-gradient(90deg,white,black );
+  background-size: 0% 3px;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  transition: background-size 300ms ease;
+  color: #C1CFC0;
+  font-family: 'oswald';
+  font-size: 4em;
+  margin-top: 150px;
+  text-decoration:none ;
+
+}
+.credentials h1{
+  background-image: linear-gradient(90deg,white,black );
+  background-size: 0% 3px;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  transition: background-size 300ms ease;
+  color: #C1CFC0;
+  font-family: 'oswald';
+  font-size: 4em;
+  margin-top: 150px;
+  text-decoration:none ;
+
+}
+.contact h1{
+  background-image: linear-gradient(90deg,white,black );
+  background-size: 0% 3px;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  transition: background-size 300ms ease;
+  color: #C1CFC0;
+  font-family: 'oswald';
+  font-size: 4em;
+  margin-top: 150px;
+  text-decoration:none ;
+
+}
+h1:hover{
+  background-size: 100% 3px;
+}
+hr{
+  margin: 5% 40%;
+  border: 5px dotted;
+  border-bottom: 0;
+
+}
+.footer{
+  color: #334756;
+  height: 500px;
+  background-color: #C1CFC0;;
+  text-align: center;
+}
